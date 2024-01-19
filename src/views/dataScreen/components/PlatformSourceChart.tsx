@@ -6,6 +6,7 @@ interface ChartProp {
 	value: number;
 	percentage: string;
 }
+
 const PlatformSourceChart = () => {
 	let data = [
 		{

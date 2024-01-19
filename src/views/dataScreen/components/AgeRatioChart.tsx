@@ -6,6 +6,7 @@ interface ChartProp {
 	name: string;
 	percentage: string;
 }
+
 const AgeRatioChart = () => {
 	let data: any = [
 		{

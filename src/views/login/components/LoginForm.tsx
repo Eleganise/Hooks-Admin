@@ -9,7 +9,7 @@ import { connect } from "react-redux";
 import { setToken } from "@/redux/modules/global/action";
 import { useTranslation } from "react-i18next";
 import { setTabsList } from "@/redux/modules/tabs/action";
-import { UserOutlined, LockOutlined, CloseCircleOutlined } from "@ant-design/icons";
+import { CloseCircleOutlined, LockOutlined, UserOutlined } from "@ant-design/icons";
 
 const LoginForm = (props: any) => {
 	const { t } = useTranslation();

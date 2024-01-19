@@ -8,6 +8,7 @@ interface ChartProp {
 	man: number;
 	woman: number;
 }
+
 const MaleFemaleRatioChart = () => {
 	let data: ChartProp = {
 		man: 0.6,
